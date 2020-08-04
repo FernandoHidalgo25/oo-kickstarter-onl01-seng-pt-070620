@@ -1,14 +1,12 @@
 class Backer
   
-attr_accessor :cats, :dogs
-  attr_reader :name, :species
+#attr_accessor :cats, :dogs
+  attr_reader :backed_projects
 
-  @@owners = []
+  #@@owners = []
 
 # instance methods
 
   def initialize(backed_projects)
-    @name = name
-    @species = "human"
-    @@owners << self
-    @cats = []
+    @backed_projects = []
+
