@@ -7,10 +7,6 @@ class Backer
 
 # instance methods
 
-  def initialize(backed_projects)
-    @backed_projects = []
-  end
-  
   def initialize(name)
     @name = name
     @backed_projects = []
