@@ -12,5 +12,8 @@ class Backer
     @backed_projects = []
     @title = title 
   end 
+  
+  def backed_project
+    
 end 
 
